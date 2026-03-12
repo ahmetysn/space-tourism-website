@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Slabo+27px&display=swap&family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 150px;
+    color: #fff;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 25px;
+}
+
+h5 {
+    margin-bottom: 0;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+p {
+    margin: 0 auto;
+    color: #fff;
+    letter-spacing: 2.5px;
+}
+
+.index-paraph {
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 12%;
+}
+
+.explore-button {
+    
+    height: 274px;
+    width: 274px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 65%;
+    margin-top: -12%;
+}
+
+.explore-button p {
+    color: black;
+    font-size: 22px;
+    text-align: center;
+}
+
+.nav-logo {
+    position: relative;
+    width: 20%;
+    top: 95px;
+    left: 90px;
+}
+
+.navbar {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar ul {
+    height: 100px;
+    width: 830px;
+    background: rgba(255,255,255,.05);
+    backdrop-filter: blur(80px);
+    list-style: none;
+    float: right;
+}
+
+.navbar li {
+    display: inline-block;
+    position: relative;
+    padding-left: 70px;
+    padding-top: 40px;
+
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+}
+
+.navbar a, a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.destination-left h5 {
+    margin-left:15%;
+    margin-top:10%;
+    width: 30%;
+}
+
+.destination-left b {
+    color: grey;
+}
+
+.destination-left img {
+    margin-left: 16%;
+    margin-top: 1%;
+}
+
+.destination-right {
+    position: absolute;
+    left: 60%;
+    top: 27%;
+    height: auto;
+    width: 30%;
+}
+
+.destination-right h1  {
+    letter-spacing: 1px;
+    font-size: 125px;
+}
+
+
+.destination-right ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.destination-right li {
+    display: inline;
+    padding-right: 55px;
+    padding-bottom: 0px;
+}
+
+.destination-right button {
+    text-decoration: none;
+    color: rgb(124, 132, 132);
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.destination-right p {
+    letter-spacing: 2.75px;
+    margin-bottom: -20px;
+}
+
+.destination-right hr {
+    margin-top: 12%;
+    border: 1px solid rgb(126, 126, 126);
+}
+
+.destination-right table {
+    color: #fff;
+    width: 80%;
+    padding-top: 5%;
+}
+
+.destination-right table td {
+    color: #fff;
+}
+
+.destination-right table h1 {
+    font-size: 20px;
+    letter-spacing: 2.75px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.destination-right table h2 {
+    font-size: 28px;
+    letter-spacing: 1.5px;
+}
+
+.crew-left {
+    margin-left:15%;
+    margin-top:10%;
+    width: 25%;
+}
+
+.crew-left b {
+    color: grey;
+}
+
+.crew-left h2 {
+    color: grey;
+    text-transform: uppercase;
+    margin-top: 15%;
+    font-size: 28px;
+}
+
+.crew-left h1 {
+    font-size: 50px;
+    letter-spacing: 0;
+    padding-bottom: 6%;
+}
+
+.crew-img {
+    width: 25%;
+    position: absolute;
+    left: 60%; 
+    bottom: 0;
+}
+
+.crew-buttons {
+    position: fixed;
+    bottom: 2%;
+    left: 15%;
+    width: 25%;
+}
+
+.crew-buttons ul {
+    padding-top: 3%;
+    padding-left: 80px;
+}
+
+.crew-buttons li {
+    list-style: none;
+    display: inline;
+    padding-right: 7%;
+}
+
+.crew-buttons button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: grey;
+    border: 0;
+}
+
+.crew-buttons button:hover {
+    background-color: white;
+    opacity: 1;
+}
+
+.tech-left .writes {
+    position: absolute;
+    left: 25%;
+    width: 25%;
+}
+
+.tech-left {
+    margin-left:15%;
+    margin-top:10%;
+    width: 45%;
+    height: 400px;
+}
+
+.tech-left b {
+    color: grey;
+}
+
+.tech-left h2 {
+    color: grey;
+    text-transform: uppercase;
+    margin-top: 5%;
+    font-size: 28px;
+}
+
+.tech-left h1 {
+    font-size: 50px;
+    letter-spacing: 0;
+    padding-bottom: 6%;
+}
+
+.tech-left .buttons {
+    margin: 0;
+    position: absolute;
+    top: 38%;
+    left: 15%;
+}
+
+.tech-left ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.tech-left button {
+    list-style: none;
+    border: 1px solid grey;
+    background: none;
+    color: #fff;
+    font-size: 20px;
+    font: bold;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 50%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tech-left button:hover {
+    background: #fff;
+    color: black;
+    opacity: 1;
+}
+
+.tech-img {
+    position: absolute;
+    top: 30%;
+    width: 30%;
+    right: 0;
+}
+
+.bg-music {
+    position: absolute;
+    top: 83%;
+    left: 20%;
+}
+
+.btn {
+    background-color: transparent;
+    color: #fff;
+    font-size: 78px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    opacity: .3;
+    transition: all linear .2s;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa-pause-circle-o {
+    display: none;
+}

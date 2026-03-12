@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap">
+  <title>Frontend Mentor | Space tourism website</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body background="assets/home/background-home-desktop.jpg">
+
+  <!--
+  00 Home
+  01 Destination
+  02 Crew
+  03 Technology
+
+  So, you want to travel to
+  Space
+  Let’s face it; if you want to go to space, you might as well genuinely go to 
+  outer space and not hover kind of on the edge of it. Well sit back, and relax 
+  because we’ll give you a truly out of this world experience!
+
+  Explore
+  -->
+<div class="navbar">
+  
+    <div class="nav-logo"><a href="#"><img src="assets/shared/logo.svg" alt=""></a></div>
+    <ul class="nav-links">
+      <li><a class="nav-text active" href="index.html"><b>00</b> Home</a></li>
+      <li><a class="nav-text inactive" href="html/destination.html"><b>01</b> Destination</a></li>
+      <li><a class="nav-text inactive" href="html/crew.html"><b>02</b> Crew</a></li>
+      <li><a class="nav-text inactive" href="html/technology.html"><b>03</b> Technology</a></li>
+    </ul>
+</div>
+
+<div class="index-paraph">
+  <h5>So, you want to travel to</h5>
+  <h1 class="heading1">Space</h1>
+  <p id="intro">Let’s face it; if you want to go to space,
+  you might as well genuinely go to outer space and not hover kind of on the edge of it.
+  Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
+</div>
+
+<div class="explore-button">
+  <a href><p>EXPLORE</p></a>
+</div>
+
+  <div class="bg-music">
+    <audio id="interstellar-theme" src="assets/interstellar-theme-music.mp3"></audio>
+    <button class="btn">
+      <i class="fa fa-play-circle-o"></i>
+      <i class="fa fa-pause-circle-o"></i>
+    </button>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+  <script type="text/javascript">
+    
+    $(document).ready(function(){
+      $(".btn .fa-play-circle-o").on('click', function(){
+        $(this).hide();
+        $(".fa-pause-circle-o").fadeIn();
+        $('#interstellar-theme')[0].play();
+      });
+    });
+
+    $(document).ready(function(){
+      $(".btn .fa-pause-circle-o").on('click', function(){
+        $(this).hide();
+        $(".fa-play-circle-o").fadeIn();
+        $('#interstellar-theme')[0].pause();
+      });
+    });    
+
+  </script>
+</body>
+</html>
